@@ -15,7 +15,7 @@ metadata:
   name: lec-20-my-crd-app-config-bmmhdm2fg6
   namespace: lec-20
 ---
-apiVersion: apps.galonge.dev/v1
+apiVersion: apps.joseeden.dev/v1
 kind: MyCrdApp
 metadata:
   labels:

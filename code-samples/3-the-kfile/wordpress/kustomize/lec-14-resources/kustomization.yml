@@ -8,4 +8,4 @@ namePrefix: lec-14-
 
 resources:
 - mysql
-- https://github.com/galonge/udemy-kustomize-mastery.git//code-samples/3-the-kfile/wordpress/kustomize/base
+- https://github.com/joseeden/test-kustomize-labs.git//code-samples/3-the-kfile/wordpress/kustomize/base

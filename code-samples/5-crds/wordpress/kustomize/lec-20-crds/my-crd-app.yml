@@ -1,4 +1,4 @@
-apiVersion: apps.galonge.dev/v1
+apiVersion: apps.joseeden.dev/v1
 kind: MyCrdApp
 metadata:
   name: my-crd-app
