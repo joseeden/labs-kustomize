@@ -2,5 +2,7 @@ resources:
 - nginx-deployment.yaml
 - nginx-service.yaml
 
-commonLabels:
-  company: marine-parade
+labels:
+- includeSelectors: true 
+  pairs:
+    company: marine-parade
