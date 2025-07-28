@@ -1,4 +1,4 @@
 resources:
-- deployment.yml
-- service.yml
-- secret.yml
+- db-deployment.yml
+- db-service.yml
+- db-secret.yml

@@ -1,6 +1,8 @@
-commonLabels:
-  version: v3
-
 resources:
-- mysql # kustomize will look for a kustomization.yml in the mysql directory
 - ../base
+- mysql
+
+labels:
+- includeSelectors: true 
+  pairs:
+    version: v3.0.0
