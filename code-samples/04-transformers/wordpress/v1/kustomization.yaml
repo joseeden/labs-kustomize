@@ -4,7 +4,9 @@ kind: Kustomization
 commonLabels:
   version: v1
 
-namePrefix: v1-
-
 resources:
 - ../base
+
+transformers:
+- ./transformers/name-prefix.yaml
+- ./transformers/label.yaml

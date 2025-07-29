@@ -3,23 +3,26 @@ kind: Service
 metadata:
   labels:
     app: wordpress
+    environment: dev
     version: v1
-  name: v1-convenience-wordpress-transformers
+  name: v1-wordpress
 spec:
   ports:
-  - port: 80
+  - nodePort: 30001
+    port: 80
   selector:
     app: wordpress
     version: v1
-  type: LoadBalancer
+  type: NodePort
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
     app: wordpress
+    environment: dev
     version: v1
-  name: v1-convenience-wordpress-transformers
+  name: v1-wordpress
 spec:
   selector:
     matchLabels:

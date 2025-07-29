@@ -2,5 +2,5 @@
 #   version: v1
 
 resources:
-- deployment.yml
-- service.yml
+- deployment.yaml
+- service.yaml
