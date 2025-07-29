@@ -1,3 +1,4 @@
+# Please see; https://joseeden.github.io/joeden/docs/Containerization/Kubernetes/Setting-Up-Kubernetes-using-Kind
 # cluster.yaml
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4

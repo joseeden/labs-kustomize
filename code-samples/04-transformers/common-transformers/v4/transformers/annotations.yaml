@@ -1,0 +1,10 @@
+apiVersion: builtin
+kind: AnnotationsTransformer
+metadata:
+  name: annotations-transformer
+annotations:
+  team: devops
+  managed-by: kustomize
+fieldSpecs:
+  - path: metadata/annotations
+    create: true
