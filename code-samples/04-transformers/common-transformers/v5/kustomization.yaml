@@ -1,0 +1,6 @@
+resources:
+- ../base-img
+
+images:
+  - name: nginx
+    newName: haproxy

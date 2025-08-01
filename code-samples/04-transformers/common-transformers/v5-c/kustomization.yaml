@@ -1,0 +1,7 @@
+resources:
+- ../base-img
+
+images:
+  - name: nginx
+    newName: haproxy
+    newTag: "3.0-most-latest"
