@@ -1,5 +1,4 @@
 resources:
-  - ../base
+  - ../base-v3
 
-transformers:
-  - transformers/namespace.yaml
+namespace: test-lab-dev

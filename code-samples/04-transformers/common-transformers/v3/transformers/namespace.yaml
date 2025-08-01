@@ -1,8 +1,0 @@
-apiVersion: builtin
-kind: NamespaceTransformer
-metadata:
-  name: namespace-transformer
-namespace: test-lab-dev
-fieldSpecs:
-  - path: metadata/namespace
-    create: true
