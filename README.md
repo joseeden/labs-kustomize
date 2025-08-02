@@ -1,4 +1,4 @@
-# test-kustomize-labs
+# labs-kustomize
 
 Repository for Kustomize labs
 
