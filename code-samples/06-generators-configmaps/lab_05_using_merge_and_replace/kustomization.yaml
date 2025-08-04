@@ -1,0 +1,14 @@
+resources:
+  - ../lab_04_multiple_configmaps
+
+configMapGenerator:
+  - name: test-config
+    behavior: merge
+    literals:
+      - feature-x=true
+
+  - name: dev-config
+    behavior: replace
+    literals:
+      - version=2.0.0
+      - debug=true

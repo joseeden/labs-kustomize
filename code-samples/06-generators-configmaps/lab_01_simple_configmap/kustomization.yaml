@@ -1,0 +1,6 @@
+namespace: test-labs-2
+
+configMapGenerator:
+  - name: db-cred
+    literals:
+      - password=secret123456789

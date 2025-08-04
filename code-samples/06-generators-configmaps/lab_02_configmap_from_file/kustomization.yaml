@@ -1,0 +1,6 @@
+namespace: test-labs-2
+
+configMapGenerator:
+  - name: nginx-config
+    files:
+      - nginx.conf

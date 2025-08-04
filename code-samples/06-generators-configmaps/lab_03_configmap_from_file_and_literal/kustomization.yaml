@@ -1,0 +1,9 @@
+namespace: test-labs-3
+
+configMapGenerator:
+  - name: app-config
+    behavior: create
+    files:
+      - app.properties
+    literals:
+      - mode=dev

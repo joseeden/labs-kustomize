@@ -1,0 +1,17 @@
+namespace: test-labs-4
+
+configMapGenerator:
+  - name: app-config
+    behavior: create
+    files:
+      - app.properties
+    literals:
+      - mode=dev
+  - name: test-config
+    behavior: create
+    files:
+      - test.properties
+  - name: dev-config
+    behavior: create
+    literals:
+      - version=1.0.2
