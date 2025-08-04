@@ -1,6 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
 namespace: test-labs-2
 
 configMapGenerator:
   - name: nginx-config
     files:
       - nginx.conf
+
+resources:
+- nginx-deployment.yml
